@@ -1,0 +1,58 @@
+html {
+    font-family: sans-serif;
+}
+
+form {
+    display: inline-block;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.col-3, .col-4, .col {
+    padding: 2px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-row > .col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+.completed {
+    text-decoration: line-through;
+}
+.hasError {
+    border: 2px solid #dc3545 !important;
+}
+.error_message {
+    color: #dc3545;
+}
+.active_page {
+    background: gainsboro !important;
+    color: white !important;
+    cursor: default !important;
+}
+.info {
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}
+.save-task-desc {
+    display: none !important;
+}
+.btn {
+    margin-top: 1px;
+}
